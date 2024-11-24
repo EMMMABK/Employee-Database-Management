@@ -83,6 +83,20 @@ INSERT INTO employee (name, position, salary, hire_date)
 VALUES ('Student AlaToo', 'HR Manager', 60000, '2023-01-15');
 ```
 
+```
+SELECT * FROM employee WHERE id = 1;
+```
+
+```
+UPDATE employee
+SET salary = 65000
+WHERE id = 1;
+```
+
+```
+DELETE FROM employee WHERE id = 1;
+```
+
 ![Screenshot Description](assets/screenshot1.jpg)
 
 ![Screenshot Description](assets/screenshot2.png)
