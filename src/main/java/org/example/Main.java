@@ -13,7 +13,7 @@ public class Main {
         employeeData.createEmployee(employee);
 
         // Retrieve and display an employee by ID
-        Employee retrievedEmployee = employeeData.getEmployeeById(1);
+        Employee retrievedEmployee = employeeData.getEmployeeById(6);
         System.out.println(retrievedEmployee);
 
         // Retrieve and display all employees
@@ -23,11 +23,18 @@ public class Main {
         }
 
         // Update an employee
-        retrievedEmployee.setPosition("Senior Developer");
-        retrievedEmployee.setSalary(90000);
-        employeeData.updateEmployee(retrievedEmployee);
+        if (retrievedEmployee != null) {
+            System.out.println("Updating employee...");
+            retrievedEmployee.setPosition("Senior Developer");
+            retrievedEmployee.setSalary(90000);
+            employeeData.updateEmployee(retrievedEmployee);
+            System.out.println("Updated employee: " + retrievedEmployee);
+        } else {
+            System.out.println("Employee with ID 1 not found.");
+        }
+
 
         // Delete an employee
-        employeeData.deleteEmployee(1);
+        employeeData.deleteEmployee(8);
     }
 }
