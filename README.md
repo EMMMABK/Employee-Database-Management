@@ -1,4 +1,4 @@
-# Employee Management System
+# Employee Database Management System
 
 This is a simple Java application that interacts with a relational database to manage employee data. It uses JDBC to perform CRUD (Create, Read, Update, Delete) operations on an `employee` table in the `employee_db` database. The application consists of an `Employee` entity class and an `EmployeeData` class for handling database operations.
 
@@ -132,7 +132,7 @@ _(Include a screenshot showing the database after the employee is deleted.)_
 ## Project Structure
 
 ```
-employee-management-system
+employee-database-management-system
 ├── src
 │   ├── main
 │   │   ├── java
