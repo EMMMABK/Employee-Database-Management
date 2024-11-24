@@ -84,7 +84,7 @@ VALUES ('Student AlaToo', 'HR Manager', 60000, '2023-01-15');
 ```
 
 **Screenshot:**
-_(Include a screenshot showing the new employee in the database table.)_
+![Screenshot Description](assets/screenshot1.png)
 
 ---
 
@@ -97,7 +97,7 @@ SELECT * FROM employee WHERE id = 1;
 ```
 
 **Screenshot:**
-_(Include a screenshot showing the retrieved employee record.)_
+![Screenshot Description](assets/screenshot1.png)
 
 ---
 
@@ -112,7 +112,7 @@ WHERE id = 1;
 ```
 
 **Screenshot:**
-_(Include a screenshot showing the updated employee record.)_
+![Screenshot Description](assets/screenshot1.png)
 
 ---
 
@@ -125,7 +125,7 @@ DELETE FROM employee WHERE id = 1;
 ```
 
 **Screenshot:**
-_(Include a screenshot showing the database after the employee is deleted.)_
+![Screenshot Description](assets/screenshot1.png)
 
 ---
 
