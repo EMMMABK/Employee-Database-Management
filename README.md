@@ -83,49 +83,13 @@ INSERT INTO employee (name, position, salary, hire_date)
 VALUES ('Student AlaToo', 'HR Manager', 60000, '2023-01-15');
 ```
 
-**Screenshot:**
-![Screenshot Description](assets/screenshot1.png)
+![Screenshot Description](assets/screenshot1.jpg)
 
----
+![Screenshot Description](assets/screenshot2.png)
 
-### Retrieve an Employee by ID
-The application fetches the details of an employee based on their ID.
+![Screenshot Description](assets/screenshot3.jpg)
 
-**Database Query:**
-```sql
-SELECT * FROM employee WHERE id = 1;
-```
-
-**Screenshot:**
-![Screenshot Description](assets/screenshot1.png)
-
----
-
-### Update an Employee
-Modify an employee's details, such as updating their salary.
-
-**Database Query:**
-```sql
-UPDATE employee
-SET salary = 65000
-WHERE id = 1;
-```
-
-**Screenshot:**
-![Screenshot Description](assets/screenshot1.png)
-
----
-
-### Delete an Employee
-Remove an employee from the `employee` table.
-
-**Database Query:**
-```sql
-DELETE FROM employee WHERE id = 1;
-```
-
-**Screenshot:**
-![Screenshot Description](assets/screenshot1.png)
+![Screenshot Description](assets/screenshot4.jpg)
 
 ---
 
